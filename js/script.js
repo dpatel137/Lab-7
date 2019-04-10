@@ -1,5 +1,7 @@
 function init(){
+  alert('Darsh Patel');
+}
 
+var output = document.getElementById('entrybutton');
 
-
-window.addEventListener('load', init);
+output.addEventListener('click', init);
